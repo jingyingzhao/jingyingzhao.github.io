@@ -1,0 +1,89 @@
+/* Global styles used across all pages */
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #F5E6CA;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #6E4B3A;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #F5E6CA;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #E67E22;
+    text-decoration: underline;
+}
+
+/* Main content area with spacing */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Headings use a serif font */
+h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #C0392B;
+}
+
+/* Paragraph text */
+p {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Highlighted paragraph: larger text and background color */
+.highlight {
+    font-size: 20px;
+    background-color: #7D9471;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+/* Unordered list */
+ul {
+    color: #6E4B3A;
+}
+
+/* Description list */
+dt {
+    font-weight: bold;
+    color: #C0392B;
+}
+dd {
+    margin-bottom: 8px;
+}
+/* Gallery page: unique grid layout, different from other pages */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.gallery-grid img {
+    margin: 0;
+    height: 250px;
+    object-fit: cover;
+}

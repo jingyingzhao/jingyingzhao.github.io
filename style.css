@@ -35,7 +35,7 @@ main {
 /* Headings use a serif font */
 h1, h2 {
     font-family: Georgia, "Times New Roman", serif;
-    color: #C0392B;
+    color: #962418;
 }
 
 /* Paragraph text */
@@ -48,7 +48,7 @@ p {
 /* Highlighted paragraph: larger text and background color */
 .highlight {
     font-size: 20px;
-    background-color: #7D9471;
+    background-color: #536948;
     color: #222;
     padding: 10px;
     border-radius: 6px;
@@ -70,7 +70,7 @@ ul {
 /* Description list */
 dt {
     font-weight: bold;
-    color: #C0392B;
+    color: #962418;
 }
 dd {
     margin-bottom: 8px;
